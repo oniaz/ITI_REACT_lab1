@@ -5,7 +5,8 @@ export default function Card({ title, price, image, children }) {
             <img 
                 src={image} 
                 alt={title} 
-                className="w-full h-40 object-cover"
+                  className="w-full h-40 object-contain bg-gray-100"
+
             />
 
             <div className="p-4">

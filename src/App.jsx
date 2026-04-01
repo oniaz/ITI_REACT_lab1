@@ -5,29 +5,29 @@ function App() {
 
   const products = [
     {
-      title: "Card 1",
+      title: "Vase 1",
       price: "$100",
-      image: "https://source.unsplash.com/random/300x200?sig=1"
+      image: "src/assets/images/1.jpg"
     },
     {
-      title: "Card 2",
+      title: "Vase 2",
       price: "$200",
-      image: "https://source.unsplash.com/random/300x200?sig=2"
+      image: "src/assets/images/2.jpg"
     },
     {
-      title: "Card 3",
+      title: "Vase 3",
       price: "$300",
-      image: "https://source.unsplash.com/random/300x200?sig=3"
+      image: "src/assets/images/3.jpg"
     },
     {
-      title: "Card 4",
+      title: "Vase 4",
       price: "$150",
-      image: "https://source.unsplash.com/random/300x200?sig=4"
+      image: "src/assets/images/4.jpg"
     },
     {
-      title: "Card 5",
+      title: "Vase 5",
       price: "$250",
-      image: "https://source.unsplash.com/random/300x200?sig=5"
+      image: "src/assets/images/5.jpg"
     }
   ];
 
