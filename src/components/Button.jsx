@@ -1,8 +1,6 @@
-import React from 'react'
-
-export default function Button() {
+export default function Button({itemNumber}) {
   const handleClickBtn = () => {
-    alert("Button Clicked!");
+    alert(` Clicked Item: ${itemNumber}`);
   }
   return (
     <button

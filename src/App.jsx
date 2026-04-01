@@ -41,7 +41,7 @@ function App() {
           price={item.price}
           image={item.image}
         >
-          <Button />
+          <Button itemNumber={index + 1} />
         </Card >;
       })}
     </>
