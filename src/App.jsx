@@ -1,38 +1,45 @@
 import Card from "./components/Card"
 import Button from "./components/Button"
 
+import img1 from "./assets/images/1.jpg"
+import img2 from "./assets/images/2.jpg"
+import img3 from "./assets/images/3.jpg"
+import img4 from "./assets/images/4.jpg"
+import img5 from "./assets/images/5.jpg"
+import img6 from "./assets/images/6.jpg"
+
 function App() {
 
   const products = [
     {
       title: "Vase 1",
       price: "$100",
-      image: "src/assets/images/1.jpg"
+      image: img1
     },
     {
       title: "Vase 2",
       price: "$200",
-      image: "src/assets/images/2.jpg"
+      image: img2
     },
     {
       title: "Vase 3",
       price: "$300",
-      image: "src/assets/images/3.jpg"
+      image: img3
     },
     {
       title: "Vase 4",
       price: "$150",
-      image: "src/assets/images/4.jpg"
+      image: img4
     },
     {
       title: "Vase 5",
       price: "$250",
-      image: "src/assets/images/5.jpg"
+      image: img5
     },
     {
       title: "Vase 6",
       price: "$350",
-      image: "src/assets/images/6.jpg"
+      image: img6
     }
   ];
 
